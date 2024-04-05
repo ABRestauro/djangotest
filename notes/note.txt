@@ -3,6 +3,7 @@
 cd ../                                  ##go to project folder
 http://127.0.0.1:8000/                  ##server url
 python manage.py runserver              ##run server
+python manage.py startapp               ##create app
 python manage.py migrate                ##add to database after execution
 python manage.py makemigrations         ##create migrations
 admin pass
